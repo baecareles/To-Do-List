@@ -31,7 +31,7 @@ listContainer.addEventListener("click",function(e){
   }
 },false);
 
-// FOR SAVE THE DATE WHEN WE REFRESHE IT CANNOT DELETE
+// FOR SAVE THE DATA WHEN WE REFRESHE IT CANNOT DELETE
 
 function savedata(){
     localStorage.setItem("data",listContainer.innerHTML);
